@@ -9,5 +9,5 @@ spec:
     - name: nodejs-bharath
       image: arjunachari12/k8s-demo
       ports:
-        - name: nodejsPort
+        - name: nodejsport
           containerPort: 3000
