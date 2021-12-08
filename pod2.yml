@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pod1
+spec:
+  containers:
+    - name: nginx-bharath
+      image: nginx
+      ports:
+        - containerPort: 8080
+    - name: watcher-bharath
+      image: afakharany/watcher
+      ports:
+        - containerPort: 8060
